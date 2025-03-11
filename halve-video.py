@@ -65,7 +65,7 @@ def split_video(video_path, hw_accel="cuda"):
 # Run script from command line
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("❌ Usage: python split_video.py <input_video.mp4>")
+        print("❌ Usage: python halve-video.py <input_video>")
         sys.exit(1)
 
     input_file = sys.argv[1]
